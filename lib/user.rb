@@ -1,11 +1,11 @@
-# class User
-#   attr_reader :name, :email
+class User
+  attr_accessor :name, :email
   
-#   def initialize(name:, email:)
-#     @name = name
-#     @email = email
-#   end
-# end
+  def initialize
+    @name = name
+    @email = email
+  end
+end
 
 # class User
 #   attr_reader :name
