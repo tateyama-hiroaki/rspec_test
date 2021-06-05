@@ -1,2 +1,231 @@
-<h1>Users#home</h1>
-<p>Find me in app/views/users/home.html.erb</p>
+<%# <input type="submit" name="commit" value="Save"> %>
+
+<%# <a href="/help">Help</a> %>
+
+<%#= link_to image_tag('rails.png'), help_path, alt: 'rails-logo' %>
+
+<%# <label for="blog_title">タイトル</label>
+<input type="text" value="" name="blog[title]" id="blog_title"> %>
+
+<%# <label for="japanese_calendar">和暦</label>
+<select name="japanese_calendar" id="japanese_calendar">
+  <option value="0">明治</option>
+  <option value="1">大正</option>
+  <option value="2">昭和</option>
+  <option value="3">平成</option>
+</select> %>
+
+<%# <label for="mailmagazine">
+  <input type="checkbox" name="mailmagazine" id="mailmagazine" value="1">
+  メールマガジンを購読する
+</label> %>
+
+<%# <label>
+<input id="user_sex_male" name="user[sex]" type="radio" value="male" checked="checked">
+男性
+</label>
+<label>
+<input id="user_sex_female" name="user[sex]" type="radio" value="female">
+女性
+</label> %>
+
+<%# <input type="text" name="blog[title]" id="blog_title" value="" placeholder="ここにタイトルを入力します"> %>
+
+<%# <select name="japanese_calendar" id="japanese_calendar">
+  <option value="0">明治</option>
+  <option value="1">大正</option>
+  <option value="2">昭和</option>
+  <option value="3">平成</option>
+</select> %>
+
+<%# <input type="checkbox" name="mailmagazine" id="mailmagazine" value="1"> %>
+
+<%# <div class="alert alert-success">
+  ユーザーが作成されました。
+</div> %>
+
+<%# <h1 class="information" id="information">大事なお知らせ</h1> %>
+
+<%# <a href="contacts/1" data-method="delete">delete</a> %>
+
+<%# <input type="submit" name="commit" value="Save"> %>
+
+<%# <a href="/users/sign_up">会員登録はこちら</a> %>
+
+<!-- バリデーションエラー時のHTML -->
+<%# <div class="field_with_errors">
+  <input type="text" value="" name="blog[title]" id="blog_title">
+</div> %>
+
+<!-- ブログの編集画面を開いたときのHTML -->
+<!-- <label for="blog_title">タイトル</label>
+<input type="text" value="あけましておめでとうございます。" name="blog[title]" id="blog_title"> -->
+
+<!-- <label>
+  <input type="checkbox" name="mailmagazine" id="mailmagazine" value="yes" checked>
+  メールマガジンを購読する
+</label> -->
+
+<!-- <label>
+  <input type="checkbox" name="mailmagazine" id="mailmagazine" value="yes">
+  メールマガジンを購読する
+</label> -->
+
+<!-- <label for="japanese_calendar">和暦</label>
+<select name="japanese_calendar" id="japanese_calendar">
+  <option value="明治">明治</option>
+  <option value="大正">大正</option>
+  <option selected value="昭和">昭和</option>
+  <option value="平成">平成</option>
+</select> -->
+
+<!-- <label for="japanese_calendar">和暦</label>
+<select name="japanese_calendar" id="japanese_calendar">
+  <option value="明治">明治</option>
+  <option value="大正">大正</option>
+  <option selected value="昭和">昭和</option>
+  <option value="平成">平成</option>
+</select> -->
+
+<!-- <label for="japanese_calendar">和暦</label>
+<select name="japanese_calendar" id="japanese_calendar">
+  <option value="meiji">明治</option>
+  <option value="taisho">大正</option>
+  <option value="showa">昭和</option>
+  <option value="heisei">平成</option>
+</select> -->
+
+<!-- <label>
+  <input id="user_sex_male" name="user[sex]" type="radio" value="male" checked>
+  男性
+</label>
+<label>
+  <input id="user_sex_female" name="user[sex]" type="radio" value="female">
+  女性
+</label> -->
+
+<!-- <input type="hidden" name="secret_value" id="secret_value" value="secret!!"> -->
+
+<!-- <label for="blog_title">タイトル</label>
+<input type="text" value="" name="blog[title]" id="blog_title" disabled> -->
+
+<!-- <div style="display: none;" class="secret-message">
+  よい子は見ちゃダメ
+</div> -->
+
+<%# <input type="submit" value="Create User" data-confirm="Are you sure?"> %>
+
+<%# <a class="settings-link" href="/help">
+<i class="fa fa-gears"></i>
+</a> %>
+
+<%# <a id="settings-link" href="/help">
+<i class="fa fa-gears"></i>
+</a> %>
+
+<%# <a class="settings-link" href="/help">
+<i class="fa fa-gears"></i>
+</a> %>
+
+<%# <a id="settings-link" href="/help">
+<i class="fa fa-gears"></i>
+</a> %>
+
+<%# <a>About Ruby</a> %>
+
+<%# <div class="section-drug">
+現在薬を飲んでいますか？
+  <label>
+    <input id="user_drug_yes" name="user[drug]" type="radio" value="yes" checked>
+    はい
+  </label>
+  <label>
+    <input id="user_drug_no" name="user[drug]" type="radio" value="no">
+    いいえ
+  </label>
+</div>
+
+<div class="section-disease">
+大きな病気にかかったことはありますか？
+  <label>
+    <input id="user_disease_yes" name="user[disease]" type="radio" value="yes" checked>
+    はい
+  </label>
+  <label>
+    <input id="user_disease_no" name="user[disease]" type="radio" value="no">
+    いいえ
+  </label>
+</div> %>
+
+<%# <table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mozell Conn</td>
+      <td>
+        <a href="/help">Edit</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Adaline Gleason</td>
+      <td>
+        <a href="/about">Edit</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Jazmyne Goldner</td>
+      <td>
+        <a href="/contact">Edit</a>
+      </td>
+    </tr>
+  </tbody>
+</table> %>
+
+<%# <table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mozell Conn</td>
+      <td>
+      <a href="/help">Help</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Adaline Gleason</td>
+      <td>
+      <a href="/about">About</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Jazmyne Goldner</td>
+      <td>
+      <a href="/contact">Contact</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+ %>
+
+<%# <form>
+  <input type="text" id="search-text">
+</form> %>
+
+<!-- <label for="image">Image</label>
+<p><img id="my-image" accept="image/*" style="width: 500px; height: 500px; border: 2px solid white;"></p>
+<input type="file" name="image" id="image" accept="image/*"> -->
+
+<!-- <img src="Users/user/Desktop/rspec_test/rspec_rails/app/assets/images/rails.png" alt="icon-Iimage"> -->
+
+<%# <%= image_tag 'rails.png', class: 'image' %> %>
+
+<%# <a href="/about" target="_blank">新しいウインドウを開く</a> %>
